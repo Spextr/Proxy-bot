@@ -1,0 +1,16 @@
+{
+  "default": {
+    "prefix": "p!"
+  },
+  "user": {
+    "owner": "697966067368067153", 
+    "owner2": "522789552813768725"
+  },
+  "channel": {
+  },
+  "commanddir": ["ticket", "moderation","owner","setup","utility", "bot", "core", "genorator"],
+  "website" : "",
+  "repo" : "",
+  "prodtoken" : "-",
+  "supportmail": "KuramaBot@protonmail.com"
+}

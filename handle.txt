@@ -1,0 +1,34 @@
+const { MessageEmbed } = require('discord.js')
+const fetch = require('node-fetch')
+const config = require('../../config.json');
+
+const cmdsArray = [
+    "dmall <message>",
+    "dmrole <role> <message>"
+];
+
+module.exports = {
+  config: {
+    name: "dmall",
+    aliases: ['dmmost','msgall'],
+    guildOnly: false,
+    ownerOnly: false,
+    adminOnly: true,
+    permissions: null,
+    clientPermissions: null,
+    cooldown: null,
+    group: "core",
+    description: "this will dm everyone in the server (Still on beta)",
+    examples: [],
+    parameters: []
+  },
+  run: async (client, message) => {
+}
+}
+    
+
+function error(err){
+  return new MessageEmbed()
+  .setColor('RED')
+  .setDescription(`\u200B\n${err}\n\u200B`)
+}
